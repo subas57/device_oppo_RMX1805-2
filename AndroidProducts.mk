@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX1805.mk
+    $(LOCAL_DIR)/octavi_RMX1805.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_RMX1805-user \
-    lineage_RMX1805-userdebug \
-    lineage_RMX1805-eng
+    octavi_RMX1805-user \
+    octavi_RMX1805-userdebug \
+    octavi_RMX1805-eng

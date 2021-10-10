@@ -25,13 +25,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/placeholder:system/etc/placeholder \
     $(LOCAL_PATH)/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
-# Dirac
-$(call inherit-product-if-exists, packages/apps/RealmeDirac/dirac.mk)
-
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig \
